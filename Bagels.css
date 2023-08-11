@@ -1,0 +1,45 @@
+html, body{
+    width:100%;
+    height: 100%;
+    background: #6EC3BD;
+}
+
+.img-bagel{
+    width: 200px;
+    height: 200px;
+    transition: all 0.5s;
+}
+
+.content-container:hover .img-bagel{
+    width: 240px;
+    height: 240px;
+    transform: rotate(45deg);
+}
+
+.content-container:hover .text-bagel{
+    font-size: 18px;
+    font-size: 18px;
+}
+
+.outermost-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-bagel{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+    transition: all 0.5s;
+}
